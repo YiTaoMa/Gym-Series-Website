@@ -1,0 +1,316 @@
+.MainPage {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-areas: "Logo  nav  nav  nav  nav  nav" "headingForFirstBlock  headingForFirstBlock  headingForFirstBlock  headingForFirstBlock  headingForFirstBlock headingForFirstBlock" "Aerobic  Aerobic  Aerobic Flexibility  Flexibility Flexibility" "Muscle  Muscle  Muscle   LossWeight  LossWeight  LossWeight" "Heading  Heading  Heading  Heading  Heading Heading" "descriptionOfOnlineT  descriptionOfOnlineT  descriptionOfOnlineT  descriptionOfOnlineT  descriptionOfOnlineT  descriptionOfOnlineT" "videosText  videosText  videosText  videosText  videosText videosText" "video  video  video  video2  video2 video2" "GIFText  GIFText  GIFText  GIFText  GIFText  GIFText" "pushup  pushup  pushup  DumbbellStandingShoulderPress  DumbbellStandingShoulderPress   DumbbellStandingShoulderPress" "Skipping  Skipping  Skipping  DumbbellSquat  DumbbellSquat  DumbbellSquat" "LateralRaise  LateralRaise  LateralRaise   Burpees   Burpees  Burpees" "Plyometric Plyometric Plyometric Spiderman  Spiderman  Spiderman" "BicepCurl  BicepCurl  BicepCurl plank  plank  plank" "footer  footer  footer  footer  footer  footer";
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: rgb(68 60 54 / 1);
+}
+
+.a {
+    color: white;
+    margin-left: 100px;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #090909;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+}
+
+.Home {
+    margin-left: 0px;
+}
+
+body {
+    margin: 0px;
+}
+
+.box {
+    padding: 25px;
+    font-size: 100%;
+    color: white;
+}
+
+.headingForFirstBlock {
+    grid-area: headingForFirstBlock;
+    text-align: center;
+    font-size: 100%;
+}
+
+.videosText {
+    grid-area: videosText;
+    text-align: center;
+}
+
+.GIFText {
+    grid-area: GIFText;
+    text-align: center;
+}
+
+.Aerobic {
+    grid-area: Aerobic;
+    margin-left: 33%;
+    text-align: left;
+}
+
+.Flexibility {
+    grid-area: Flexibility;
+    margin-left: 18%;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.Muscle {
+    grid-area: Muscle;
+    margin-left: 33%;
+    text-align: left;
+}
+
+.LossWeight {
+    grid-area: LossWeight;
+    margin-left: 18%;
+    text-align: left;
+}
+
+.Heading {
+    grid-area: Heading;
+    margin: auto;
+}
+
+.video {
+    grid-area: video;
+    margin-left: 10%;
+}
+
+.video2 {
+    grid-area: video2;
+    margin-left: 15%;
+}
+
+.pushup {
+    grid-area: pushup;
+    margin-left: 30%;
+}
+
+.DumbbellStandingShoulderPress {
+    grid-area: DumbbellStandingShoulderPress;
+    margin-left: 10%;
+}
+
+.Skipping {
+    grid-area: Skipping;
+    margin-left: 30%;
+}
+
+.DumbbellSquat {
+    grid-area: DumbbellSquat;
+    margin-left: 10%;
+}
+
+.LateralRaise {
+    grid-area: LateralRaise;
+    margin-left: 30%;
+}
+
+.Burpees {
+    grid-area: Burpees;
+    margin-left: 10%;
+}
+
+.Plyometric {
+    grid-area: Plyometric;
+    margin-left: 30%;
+}
+
+.Spiderman {
+    grid-area: Spiderman;
+    margin-left: 10%;
+}
+
+.BicepCurl {
+    grid-area: BicepCurl;
+    margin-left: 30%;
+}
+
+.plank {
+    grid-area: plank;
+    margin-left: 10%;
+}
+
+h3 {
+    text-align: left;
+}
+
+.descriptionOfOnlineT {
+    grid-area: descriptionOfOnlineT;
+    text-align: center;
+}
+
+.text {
+    color: white;
+}
+
+.textforamt {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.textCentral {
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    font-size: 100%;
+    background-color: #090909;
+    padding: 5px;
+}
+
+.privacy {
+    float: right;
+    font-weight: bold;
+}
+
+.createby {
+    text-align: left;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.servicesLinktoKnowledge1 {
+    color: wheat;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.servicesLinktoKnowledge2 {
+    color: wheat;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Logo {
+    grid-area: Logo;
+    background-color: #090909;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px white;
+}
+
+.logo {
+    font-family: "Lato", Arial, sans-serif;
+    font-size: calc(1em + 12vw);
+    letter-spacing: 0.08em;
+    color: #eee;
+    text-transform: uppercase;
+    white-space: nowrap;
+    user-select: none;
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+.cuboid, .cuboid-face {
+    display: inline-block;
+}
+
+.cuboid {
+    font-size: 0.75em;
+    position: relative;
+    height: 0.5em;
+    width: 1em;
+    vertical-align: middle;
+    transform-style: preserve-3d;
+    transform: rotateX(-40deg) rotateY(-45deg);
+    animation: rotateCuboid 3s ease-in-out infinite;
+}
+
+.cuboid-face {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 0.08em solid #eee;
+}
+
+.cuboid-face-top, .cuboid-face-bottom {
+    height: 1em;
+}
+
+.cuboid-face-front {
+    transform: translateZ(0.5em);
+    animation: faceFront 3s ease-in-out infinite;
+}
+
+.cuboid-face-back {
+    transform: rotateY(180deg) translateZ(0.5em);
+    animation: faceBack 3s ease-in-out infinite;
+}
+
+.cuboid-face-left {
+    transform: rotateY(-90deg) translateZ(0.5em);
+    animation: faceLeft 3s ease-in-out infinite;
+}
+
+.cuboid-face-right {
+    transform: rotateY(90deg) translateZ(0.5em);
+    animation: faceRight 3s ease-in-out infinite;
+}
+
+.cuboid-face-top {
+    transform: rotateX(90deg) translateZ(0.5em);
+}
+
+.cuboid-face-bottom {
+    transform: rotateX(-90deg);
+}
+
+@keyframes faceFront {
+    50% {
+        transform: translateZ(0.7em);
+    }
+}
+
+@keyframes faceBack {
+    50% {
+        transform: rotateY(180deg) translateZ(0.7em);
+    }
+}
+
+@keyframes faceLeft {
+    50% {
+        transform: rotateY(-90deg) translateZ(0.7em);
+    }
+}
+
+@keyframes faceRight {
+    50% {
+        transform: rotateY(90deg) translateZ(0.7em);
+    }
+}
+
+@keyframes rotateCuboid {
+    100% {
+        transform: rotateX(-40deg) rotateY(-405deg);
+    }
+}
